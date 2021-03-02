@@ -20,6 +20,11 @@ namespace OOKP_Lab1._1
             Misha.name = "Misha";
             Misha.age = 18;
             Misha.GetInfo();
+
+            Person Sam = new Person();
+            Sam.name = "Sam";
+            Sam.age = 25;
+            Sam.GetInfo();
             
         }
     }
