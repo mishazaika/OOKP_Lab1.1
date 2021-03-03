@@ -18,7 +18,7 @@ namespace OOKP_Lab1._1
         static void Main(string[] args)
         {
             Person Misha = new Person();
-            Misha.name = "Misha";
+            Misha.name = "Misha!!!Conflict!!!";
             Misha.age = 18;
             Misha.hobby = "Painting";
             Misha.GetInfo();
