@@ -6,12 +6,12 @@ namespace OOKP_Lab1._1
     {
         public string name; 
         public int age;
-        public string hobby;
 
         public void GetInfo()
         {
-            Console.WriteLine($"Имя: {name}  Возраст: {age} Хобби: {hobby}");
+            Console.WriteLine($"Имя: {name}  Возраст: {age}");
         }
+
     }
     class Program
     {
@@ -20,7 +20,6 @@ namespace OOKP_Lab1._1
             Person Misha = new Person();
             Misha.name = "Misha!!!Conflict!!!";
             Misha.age = 18;
-            Misha.hobby = "Painting";
             Misha.GetInfo();
 
             Person Sam = new Person();
@@ -31,4 +30,5 @@ namespace OOKP_Lab1._1
         }
     }
 }
+
 
